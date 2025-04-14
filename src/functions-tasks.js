@@ -137,7 +137,7 @@ function retry(func, attempts) {
       try {
         return func();
       } catch (err) {
-        // просто пробуем снова
+        // empty lalala
       }
     }
     return undefined;
